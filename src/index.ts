@@ -1,7 +1,12 @@
-const lq = 'this is lq, working now';
-const sayHi = (word:string) => {
-  console.log(word);
-  return word;
-};
+type StoreType = 'localStorage'|'sessionStorage'|'cookieStorage'|'indexDB';
 
-export { lq, sayHi };
+export class Store {
+  private store:any;
+  constructor(spec:{type:StoreType}) {
+    this.store = '';
+  }
+
+  public set() {
+
+  }
+}
