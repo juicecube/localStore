@@ -1,0 +1,25 @@
+{
+  "extends": "./node_modules/@mlz/lint/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noUnusedLocals": false,
+    "declaration": true,
+    "allowJs": false,
+    "checkJs": false,
+    "declarationDir": "dist/types",
+    "outDir": "dist/lib",
+    "module": "esnext",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test"
+  ]
+}
