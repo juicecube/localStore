@@ -9,10 +9,10 @@
     "declarationDir": "dist/types",
     "outDir": "dist/lib",
     "module": "esnext",
+    "noImplicitAny": false,
     "typeRoots": [
       "node_modules/@types"
-    ],
-    "jsx": "react"
+    ]
   },
   "include": [
     "src"
