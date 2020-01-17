@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/juicecube/localStore/compare/v1.2.2...v1.3.0) (2020-01-17)
+
+
+### Features
+
+* add index.d.ts ([d542a24](https://github.com/juicecube/localStore/commit/d542a24ffd41ccb137a5a93f518c46173222a1a9))
+
 ### [1.2.2](https://github.com/juicecube/localStore/compare/v1.2.0...v1.2.2) (2020-01-17)
 
 ## [1.2.0](https://github.com/juicecube/localStore/compare/v1.1.0...v1.2.0) (2020-01-17)
