@@ -3,10 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "noUnusedLocals": false,
-    "declaration": true,
+    "declaration": false,
     "allowJs": false,
     "checkJs": false,
-    "declarationDir": "dist/types",
+    // "declarationDir": "dist/types",
     "outDir": "dist/lib",
     "module": "esnext",
     "noImplicitAny": false,
