@@ -1,6 +1,6 @@
 {
   "name": "@mlz/store",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "",
   "keywords": [],
   "pkgName": "index",
@@ -10,7 +10,7 @@
   "files": [
     "dist"
   ],
-  "module": "dist/es/--index--.js",
+  "module": "dist/es/index.js",
   "author": "Fukai",
   "repository": {
     "type": "git",
