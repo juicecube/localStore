@@ -1,4 +1,3 @@
-/* eslint-disable import/no-default-export */
 import { LocalStorage } from './localStorage';
 import { SessionStorage } from './sessionStorage';
 import { CookieStorage } from './cookieStorage';

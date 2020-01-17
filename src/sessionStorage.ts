@@ -1,4 +1,4 @@
-import * as merge from 'lodash.merge';
+import { merge } from 'lodash-es';
 
 import { strToObj, valToStr } from './util';
 
