@@ -8,7 +8,8 @@
   "unpkg": "dist/umd/index.js",
   "typings": "index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "module": "dist/es/index.js",
   "author": "Fukai",
