@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/juicecube/localStore/compare/v1.1.0...v1.2.0) (2020-01-17)
+
+
+### Features
+
+* lodash tree shaking ([dc6165a](https://github.com/juicecube/localStore/commit/dc6165a1fadd7c9683be96639f23f561f01efc08))
+
 ## 1.1.0 (2020-01-17)
 
 
