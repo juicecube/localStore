@@ -1,4 +1,7 @@
 # @mlz/Store
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/17eb7a7e502d440ea5adce4a23aab165)](https://app.codacy.com/gh/juicecube/localStore?utm_source=github.com&utm_medium=referral&utm_content=juicecube/localStore&utm_campaign=Badge_Grade_Dashboard)
+
 封装localStorage, sessionStorage, cookie, indexDB.
 
 ## 安装
