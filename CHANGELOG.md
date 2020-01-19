@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.5](https://github.com/juicecube/localStore/compare/v1.3.4...v1.3.5) (2020-01-19)
+
+
+### Bug Fixes
+
+* bug of get cookie ([7a00441](https://github.com/juicecube/localStore/commit/7a00441fa9fc93463c113b841e1b93dec356eda0))
+
 ### [1.3.4](https://github.com/juicecube/localStore/compare/v1.3.3...v1.3.4) (2020-01-19)
 
 
