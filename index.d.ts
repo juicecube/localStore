@@ -41,6 +41,5 @@ declare type createType<T> = {
   type?:T;
   namespace?:string;
 };
+export default function createStore():LocalStorage;
 export default function createStore<T extends createType<StoreKey>>(spec:T):T['type'] extends StoreKey ? StoresType[T['type']] : LocalStorage;
-
-
