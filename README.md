@@ -20,3 +20,7 @@ store.update({a: 1});
 store.delete('a');
 store.get('a');
 ```
+
+## TODO
+1. indexDB
+2. remove lodash.merge(it takes 54kb)
