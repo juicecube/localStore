@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/juicecube/localStore/compare/v1.3.0...v1.3.1) (2020-01-19)
+
+
+### Bug Fixes
+
+* blank line ([2162943](https://github.com/juicecube/localStore/commit/2162943fda7295208e7961442376e7393a844a27))
+* remove useless code ([cef6922](https://github.com/juicecube/localStore/commit/cef69227e4bc2b3356838037c29cf42cd33ca587))
+* update rollup and plugins ([f397de3](https://github.com/juicecube/localStore/commit/f397de3d429e966b1e122a42e3c60dba9dcc8cee))
+
 ## [1.3.0](https://github.com/juicecube/localStore/compare/v1.2.2...v1.3.0) (2020-01-17)
 
 
