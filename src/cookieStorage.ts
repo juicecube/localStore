@@ -19,13 +19,8 @@ export class CookieStorage {
   }
 
   public get<T>(key:string):T {
-    const cookies:Cookies = {};
-    document.cookie.split(';').forEach((cookie) => {
-      const equalIndex = cookie.indexOf('=');
-      const key = cookie.slice(0, equalIndex);
-      const value = cookie.slice(equalIndex + 1);
-      cookies[key.trim()] = value;
-    });
+    const reg = new RegExp(`(?:(?:^|.*;\\s*)${key}\\s*\\=\\s*([^;]*).*$)|^.*$`);
+    const cookies = document.cookie.replace(reg, '$1');
     return strToObj(cookies[key]);
   }
 
