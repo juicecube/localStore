@@ -15,17 +15,16 @@ type StoreKey = keyof StoresType;
 
 type createType<T> = {type?:T; namespace?:string};
 
-export default function createStore<T extends createType<StoreKey>>(spec:T):T['type'] extends StoreKey ? StoresType[T['type']] : LocalStorage {
+export default function createStore<T extends createType<StoreKey>>(spec?:T):T['type'] extends StoreKey ? StoresType[T['type']] : LocalStorage {
   const stores = {
     localStorage: LocalStorage,
     sessionStorage: SessionStorage,
     cookieStorage: CookieStorage,
     indexDB: IndexDB,
   };
-  const { type } = spec;
 
-  if (type && stores[type]) {
-    return new stores[type]() as any;
+  if (spec && spec.type && stores[spec.type]) {
+    return new stores[spec.type]() as any;
   }
   return new LocalStorage() as any;
 }
