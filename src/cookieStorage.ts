@@ -21,7 +21,7 @@ export class CookieStorage {
   public get<T>(key:string):T {
     const reg = new RegExp(`(?:(?:^|.*;\\s*)${key}\\s*\\=\\s*([^;]*).*$)|^.*$`);
     const cookies = document.cookie.replace(reg, '$1');
-    return strToObj(cookies[key]);
+    return strToObj(cookies);
   }
 
   public update<T>(spec:CookieSetParam<T>) {
