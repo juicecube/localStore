@@ -1,8 +1,7 @@
-import nodeResolve from 'rollup-plugin-node-resolve';
-import sourceMaps from 'rollup-plugin-sourcemaps';
-import replace from 'rollup-plugin-replace';
+import nodeResolve from '@rollup/plugin-node-resolve';
+import replace from '@rollup/plugin-replace';
+import json from '@rollup/plugin-json';
 import typescript from 'rollup-plugin-typescript2';
-import json from 'rollup-plugin-json';
 import { terser } from 'rollup-plugin-terser';
 
 const pkg = require('./package.json');
