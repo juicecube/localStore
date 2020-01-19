@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.3](https://github.com/juicecube/localStore/compare/v1.3.2...v1.3.3) (2020-01-19)
+
+
+### Bug Fixes
+
+* create spec param can use undefined ([d537243](https://github.com/juicecube/localStore/commit/d5372432665e1684e350111973bb75949b016ee8))
+
 ### [1.3.2](https://github.com/juicecube/localStore/compare/v1.3.1...v1.3.2) (2020-01-19)
 
 ### [1.3.1](https://github.com/juicecube/localStore/compare/v1.3.0...v1.3.1) (2020-01-19)
